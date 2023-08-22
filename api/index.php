@@ -11,6 +11,7 @@ token = "EfFZH8Q3NZq6BUovs0TDHSCDCC8KMHSraCLSczapf6p"
 
 //$access_token = $LineIQToken ;
 $access_token = $token ;
+echo 'Token = ' . $token ;
 $content = file_get_contents('php://input');
 // á»Å§à»ç¹ JSON
 $events = json_decode($content, true);
